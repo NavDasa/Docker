@@ -32,4 +32,5 @@ USER user
 
 --> For making sure we can also check by "docker ps" the container won't Run. But can see in the "docker ps-a". if we want we can simply start by taking the image.
 
+Note: There is No need to give  -it while running in the CMD & ENTRYPOINT.
 
