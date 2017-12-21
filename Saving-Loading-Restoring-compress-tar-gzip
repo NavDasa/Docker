@@ -15,7 +15,7 @@ working on that image --> docker run -it centos:latest /bin/bash
 
 We must delate the container which is running then take backup.
 
-Backup the image in the tar file format --> docker save -output centos.latest.tar centos:latest
+Backup the image in the tar file format --> docker save -o centos.latest.tar centos:latest
 
 If we want to look what is there in the tar file after making tar format 
 
