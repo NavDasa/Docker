@@ -7,7 +7,7 @@ Network commands:
 
 Create a Network:
 
---> docker network create --subnet 10.1.0.0 --gateway 10.1.0.1 mybridge01 
+--> docker network create --subnet 10.1.0.0/24 --gateway 10.1.0.1 mybridge01 
 i.e the commands craete the network with the given subnet, gateway range and with the name mybridge01
 
 Delate a Network (Remove):
