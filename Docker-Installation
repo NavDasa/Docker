@@ -25,6 +25,7 @@ Add ansible user to docker
  
  Ex: usermod -aG docker ansadmin
 
+------------------------------------------------------------------------
 
 Install Docker in Centos 7 & 7.2:
 
