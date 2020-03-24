@@ -15,6 +15,16 @@ systemctl start docker
 systemctl status docker
 ----------------------------------------------------------------------
 
+Add ansible user to docker
+1. Install docker
+2. create ansible user
+3. login to that user
+4. Install ansible on the ansible user
+5. Go to the root directory
+6. Add ansible user to docker group ( usermod -aG docker <ansibleuser> )
+ 
+ Ex: usermod -aG docker ansadmin
+
 
 Install Docker in Centos 7 & 7.2:
 
